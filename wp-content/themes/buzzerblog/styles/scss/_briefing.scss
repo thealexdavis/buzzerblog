@@ -1,0 +1,214 @@
+@import "variables";
+
+body#buzzerblog{
+	#briefing{
+		border-top: 2px solid $gray;
+		border-bottom: 2px solid $gray;
+		padding-bottom: 2em;
+		margin-bottom: 4px;
+		padding-top: 2em;
+		.left{
+			border-bottom: 2px solid $gray;
+			margin-bottom: 4px;
+			padding-top: 2em;
+			.post{
+				margin-bottom: 2.5em;
+				.img{
+					position: relative;
+					margin-bottom: 2.4em;
+					img{
+						width: 100%;
+					}
+					p.teaser{
+						position: absolute;
+						bottom: -0.9em;
+						left: 20px;
+						text-transform: uppercase;
+						font-weight: 500;
+						color: $red;
+						border: 3px solid #FDE606;
+						text-align: center;
+						background-color: white;
+						font-size: 1.25em;
+						padding: 0.43em 0.55em;
+						margin: 0;
+					}
+					a{
+						display: block;
+						height: 275px;
+						max-height: 275px;
+						img{
+							max-height: 275px;
+							height: 275px;
+							object-fit: cover;
+						}
+					}
+				}
+				.content{
+					p{
+						margin: 0;
+						&.title{
+							color: #232323;
+							font-weight: 600;
+							font-size: 2.2em;
+							margin-bottom: 0.4em;
+							a{
+								font-size: 1em;
+								color: #232323;
+								text-decoration: none;
+								&:hover{
+									text-decoration: underline;
+								}
+							}
+						}
+						&.desc{
+							font-size: 1rem;
+							line-height: 1.3em;
+							margin-bottom: 0.9em;
+						}
+						&.author{
+							font-family: 'IBM Plex Serif';
+							font-weight: 500;
+							text-transform: uppercase;
+							color: $gray;
+							letter-spacing: 0.5px;
+							font-size: 0.86rem;
+						}
+					}
+					a.author{
+						font-family: 'IBM Plex Serif';
+						font-weight: 500;
+						text-transform: uppercase;
+						color: $gray;
+						letter-spacing: 0.5px;
+						font-size: 0.86rem;
+						text-decoration: none;
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+		.right{
+			border-top: 2px solid $gray;
+			padding-top: 2em;
+			h3{
+				color: $red;
+				font-weight: 700;
+				text-transform: uppercase;
+				font-size: 2.6em;
+				margin: 0 0 0.7em;
+				text-align: center;
+				i{
+					color: #FDE606;
+				}
+			}
+			a{
+				&.review{
+					display: none;
+					flex-direction: row;
+					flex-wrap: wrap;
+					text-decoration: none;
+					margin-bottom: 0.8em;
+					align-items: center;
+					&:nth-child(-n+4){
+						display: flex;
+					}
+					span{
+						&.score{
+							color: white;
+							background-color: $red;
+							font-weight: 700;
+							width: 62px;
+							height: 62px;
+							display: flex;
+							margin-right: 15px;
+							align-items: center;
+							justify-content: center;
+							font-size: 1.3em;
+							@include transition(background-color, 0.1s, ease-out);
+						}
+						&.title{
+							width: calc(100% - 62px - 15px);
+							font-weight: 500;
+							color: $gray;
+							font-size: 1.65em;
+							line-height: 1.1em;
+						}
+					}
+					&:hover{
+						span{
+							&.score{
+								background-color: darken($red, 20%);
+							}
+							&.title{
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+				&.btn{
+					color: white;
+					display: block;
+					width: 100%;
+					text-align: center;
+					font-weight: 700;
+					background-color: $red;
+					text-decoration: none;
+					font-size: 1.5em;
+					padding: 0.8em 0;
+					margin-top: 0.8em;
+					@include transition(background-color, 0.1s, ease-out);
+					&:hover{
+						background-color: darken($red, 20%);
+					}
+				}
+			}
+		}
+		@media only screen and (min-width: 768px) {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			.left{
+				width: calc(100% - 400px);
+				padding-bottom: 0;
+				margin-bottom: 0;
+				border-bottom: 0;
+				.post{
+					margin-bottom: 3.6em;
+				}
+			}
+			.right{
+				width: 362px;
+				margin-left: 38px;
+				border-top: 0;
+				h3{
+					text-align: left;
+				}
+				a{
+					&.review{
+						display: flex;
+					}
+				}
+			}
+		}
+		@media only screen and (min-width: 1024px) {
+			.left{
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				.post{
+					width: 47.5%;
+					margin-right: 5%;
+					&:nth-child(even){
+						margin-right: 0;
+					}
+					&:nth-last-child(-n+2){
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}

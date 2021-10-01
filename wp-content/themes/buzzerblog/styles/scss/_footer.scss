@@ -1,0 +1,192 @@
+@import "variables";
+
+body#buzzerblog{
+	footer#footer{
+		border-top: 2px solid $gray;
+		border-bottom: 2px solid $gray;
+		.top{
+			border-top: 2px solid $gray;
+			margin-top: 4px;
+			padding: 28px 0;
+			.container{
+				@include container();
+				@include flex();
+				ul{
+					list-style: none;
+					margin: 0;
+					padding: 0;
+					&.social{
+						display: flex;
+						flex-direction: row;
+						justify-content: space-between;
+						margin-bottom: 18px;
+						li{
+							display: inline-block;
+							position: relative;
+							&:last-child{
+								margin-right: 0;
+							}
+							a{
+								display: inline-block;
+								color: $gray;
+								text-decoration: none;
+								width: 50px;
+								height: 50px;
+								color: white;
+								background-color: $red;
+								text-indent: -100000000px;
+								border-radius: 50%;
+								@include transition(background-color, 0.1s, ease-out);
+							}
+							&:before{
+								position: absolute;
+								top: 0; left: 0; bottom: 0; right: 0;
+								font-size: 24px;
+								pointer-events: none;
+								font-family: "Font Awesome 5 Brands"; 
+								font-weight: 700; 
+								color: white;
+								display: flex;
+								align-items: center;
+								justify-content: center;
+							}
+							&:hover{
+								a{
+									background-color: lighten($red, 20%);
+								}
+							}
+							&.facebook{
+								&:before{
+									content: "\f09a"; 
+								}
+							}
+							&.twitter{
+								&:before{
+									content: "\f099";
+								}
+							}
+							&.instagram{
+								&:before{
+									content: "\f16d";
+								}
+							}
+							&.youtube{
+								&:before{
+									content: "\f167";
+								}
+							}
+							&.discord{
+								&:before{
+									content: "\f392";
+								}
+							}
+							&.twitch{
+								&:before{
+									content: "\f1e8";
+								}
+							}
+						}
+					}
+					&.footernav{
+						text-align: center;
+						li{
+							margin-bottom: 13px;
+							&:last-child{
+								margin-bottom: 0;
+							}
+							a{
+								text-decoration: none;
+								text-transform: uppercase;
+								color: $gray;
+								font-size: 14px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.bottom{
+			border-top: 2px solid $gray;
+			border-bottom: 2px solid $gray;
+			margin-bottom: 4px;
+			.container{
+				@include container();
+				padding: 1.9em 0;
+				p{
+					text-align: center;
+					color: $gray;
+					font-weight: 300;
+					text-transform: uppercase;
+					font-size: 14px;
+					margin: 0;
+				}
+			}
+		}
+		@media only screen and (min-width: 768px) {
+			.top{
+				.container{
+					justify-content: space-between;
+					ul{
+						&.social{
+							width: 430px;
+							margin-bottom: 0;
+							li{
+								&:before{
+									height: 50px;
+								}
+							}
+						}
+						&.footernav{
+							li{
+								text-align: right;
+								a{
+									font-size: 16px;
+									&:hover{
+										text-decoration: underline;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		@media only screen and (min-width: 1024px) {
+			.top{
+				.container{
+					align-items: center;
+					ul{
+						&.social{
+							width: 350px;
+						}
+						&.footernav{
+							li{
+								display: inline-block;
+								text-align: center;
+								margin-right: 20px;
+								margin-bottom: 0;
+								&:last-child{
+									margin-right: 0;
+								}
+								a{
+									font-size: 14px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		@media only screen and (min-width: 1200px) {
+			.top{
+				.container{
+					ul{
+						&.social{
+							width: 430px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

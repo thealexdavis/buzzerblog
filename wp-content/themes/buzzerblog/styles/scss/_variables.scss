@@ -1,0 +1,27 @@
+@mixin transition($place, $time, $ease) {
+	-moz-transition: $place $time $ease;
+	-webkit-transition: $place $time $ease;
+	-o-transition-property: $place $time $ease;
+	-ms-transition-property: $place $time $ease;
+	transition-property: $place $time $ease;
+	transition: $place $time $ease;
+}
+
+@mixin container(){
+	width: calc(100% - 50px);
+	max-width: calc(1440px - 130px - 130px);
+	margin: 0 auto;
+	position: relative;
+}
+
+@mixin flex(){
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	@media only screen and (min-width: 768px) {
+		flex-direction: row;
+	}
+}
+
+$red: #d52f1e;
+$gray: #565656;

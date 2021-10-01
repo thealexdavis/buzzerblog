@@ -1,0 +1,52 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	&.fixed{
+		overflow: hidden;
+	}
+}
+body#buzzerblog{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 80%;
+	overflow-x: hidden;
+	max-width: 100%;
+	.entry-content-page{
+		padding: 1.6em 0;
+		.container{
+			@include container();
+		}
+	}
+	.desktop{
+		display: none;
+	}
+	img{
+		&.alignleft{
+			float: left;
+			padding: 10px 10px 10px 0;
+		}
+		&.alignright{
+			float: right;
+			padding: 10px 0 10px 10px;
+		}
+	}
+	@media only screen and (min-width: 768px) {
+		.mobile{
+			display: none;
+		}
+		.desktop{
+			display: block;
+		}
+	}
+	@media only screen and (min-width: 960px) {
+		font-size: 90%;
+		
+	}
+	@media only screen and (min-width: 1200px) {
+		font-size: 95%;
+	}
+	@media only screen and (min-width: 1500px) {
+		font-size: 100%;
+	}
+}

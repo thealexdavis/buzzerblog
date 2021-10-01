@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-SuperItalic-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-SuperItalic-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-SuperItalic-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-SuperItalic-Web.woff) format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Super-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Super-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Super-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Super-Web.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-BlackItalic-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-BlackItalic-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-BlackItalic-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-BlackItalic-Web.woff) format("woff");
+    font-weight: 800;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Black-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Black-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Black-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Black-Web.woff) format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-BoldItalic-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-BoldItalic-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-BoldItalic-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-BoldItalic-Web.woff) format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Bold-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Bold-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Bold-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Bold-Web.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-SemiboldItalic-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-SemiboldItalic-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-SemiboldItalic-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-SemiboldItalic-Web.woff) format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Semibold-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Semibold-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Semibold-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Semibold-Web.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-MediumItalic-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-MediumItalic-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-MediumItalic-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-MediumItalic-Web.woff) format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Medium-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Medium-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Medium-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Medium-Web.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-RegularItalic-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-RegularItalic-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-RegularItalic-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-RegularItalic-Web.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Regular-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Regular-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Regular-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Regular-Web.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-LightItalic-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-LightItalic-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-LightItalic-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-LightItalic-Web.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Light-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Light-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Light-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Light-Web.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-ExtralightItalic-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-ExtralightItalic-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-ExtralightItalic-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-ExtralightItalic-Web.woff) format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Extralight-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Extralight-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Extralight-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Extralight-Web.woff) format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-ThinItalic-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-ThinItalic-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-ThinItalic-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-ThinItalic-Web.woff) format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Web';
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Thin-Web.eot);
+    src: url(/wp-content/themes/buzzerblog/fonts/Graphik-Thin-Web.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Thin-Web.woff2) format("woff2"), url(/wp-content/themes/buzzerblog/fonts/Graphik-Thin-Web.woff) format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLight.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLight.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLight.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLight.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLight.svg#IBMPlexSerif-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Bold.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Bold.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Bold.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Bold.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Bold.svg#IBMPlexSerif-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-BoldItalic.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-BoldItalic.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-BoldItalic.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-BoldItalic.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-BoldItalic.svg#IBMPlexSerif-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLightItalic.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLightItalic.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLightItalic.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLightItalic.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ExtraLightItalic.svg#IBMPlexSerif-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Light.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Light.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Light.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Light.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Light.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Light.svg#IBMPlexSerif-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Italic.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Italic.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Italic.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Italic.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Italic.svg#IBMPlexSerif-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBold.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBold.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBold.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBold.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBold.svg#IBMPlexSerif-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-MediumItalic.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-MediumItalic.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-MediumItalic.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-MediumItalic.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-MediumItalic.svg#IBMPlexSerif-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Medium.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Medium.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Medium.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Medium.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Medium.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Medium.svg#IBMPlexSerif-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBoldItalic.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBoldItalic.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBoldItalic.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBoldItalic.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-SemiBoldItalic.svg#IBMPlexSerif-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ThinItalic.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ThinItalic.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ThinItalic.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ThinItalic.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-ThinItalic.svg#IBMPlexSerif-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif.svg#IBMPlexSerif') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-LightItalic.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-LightItalic.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-LightItalic.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-LightItalic.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-LightItalic.svg#IBMPlexSerif-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Thin.eot');
+    src: url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Thin.eot?#iefix') format('embedded-opentype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Thin.woff2') format('woff2'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Thin.woff') format('woff'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Thin.ttf') format('truetype'),
+        url(/wp-content/themes/buzzerblog/fonts/IBMPlexSerif-Thin.svg#IBMPlexSerif-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
